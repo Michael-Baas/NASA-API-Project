@@ -21,7 +21,11 @@ function getFetch(){
         }
         document.querySelector('h2').innerText = data.title
         document.querySelector('h3').innerText = data.date
-        document.querySelector('p').innerText = data.explanation
+        document.querySelector('.explanation').innerText = data.explanation
+
+        if (data.copyright){
+            document.querySelector('.copyright').textContent = `Copyright ${data.copyright}`
+        }
         
       })
       .catch(err => {

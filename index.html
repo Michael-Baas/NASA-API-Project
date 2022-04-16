@@ -8,23 +8,26 @@
 		<title>Astronomy Picture of the Day!</title>
 
 		<!-- external CSS link -->
-		<link rel="stylesheet" href="css/reset.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/style.css">
 	</head>
-	<body>
+	<body class="stars twinkling clouds">
 
-		<h1>NASA's Astronomy Picture of the Day!</h1>
-
-		<label for="date"> Pick a date </label>
+		<h1>Nasa's Astronomy Picture of the Day Picker</h1>
+		<p>Pick a date from the picker below</p>
 		<input type="date" name="date" value="">
 		<button type="button" name="button">Get Picture</button>
 
 		<h3>Current Date:</h3>
 
 		<h2>NASA</h2>
-		<img src="img/NASA-Logo-Large.png" alt="the logo of the National Aeronautics and Space Administration" class="img-responsive" width="300px">
-        <iframe src="" frameborder="0" width="0" height="0" allowfullscreen=true></iframe>
-		<p></p>
+		<img src="img/NASA-Logo-Large.png" alt="the logo of the National Aeronautics and Space Administration" class="img-responsive">
+        <iframe src="" frameborder="0" width="0" height="0" allowfullscreen=true></iframe> 
+		<span class="copyright"></span>
+		<p class="explanation"></p>
 
 		<script type="text/javascript" src="js/main.js"></script>
 	</body>
