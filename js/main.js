@@ -20,7 +20,6 @@ function getFetch() {
                 document.querySelector('iframe').src = data.url;
             }
             document.querySelector('h2').innerText = data.title
-            document.querySelector('h3').innerText = data.date
             document.querySelector('.explanation').innerText = data.explanation
 
             if (data.copyright) {

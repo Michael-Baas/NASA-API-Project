@@ -41,3 +41,19 @@ p {
     line-height: 1.4;
     background-color: #000;
 }
+
+footer {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+
+.fa-github:hover {
+    transform: rotate(360deg) scale(1.2);
+}
+
+.fa-github {
+    color: #EEE;
+    font-size: 2.4rem;
+    transition: transform 0.3s ease-in-out;
+}
