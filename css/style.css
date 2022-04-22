@@ -4,8 +4,17 @@
 }
 
 body {
+    height: 100vh;
     padding: 1rem;
     font-size: 1.6rem;
+    background-color: #000;
+    color: #fff;
+    background-image: radial-gradient(white, rgba(255, 255, 255, .2) 2px, transparent 5px), radial-gradient(white, rgba(255, 255, 255, .15) 1px, transparent 5px), radial-gradient(white, rgba(255, 255, 255, .1) 2px, transparent 5px), radial-gradient(rgba(255, 255, 255, .4), rgba(255, 255, 255, .1) 2px, transparent 5px), radial-gradient(white, rgba(255, 255, 255, .2) 2px, transparent 5px), radial-gradient(white, rgba(255, 255, 255, .15) 1px, transparent 5px), radial-gradient(white, rgba(255, 255, 255, .1) 2px, transparent 5px), radial-gradient(rgba(255, 255, 255, .4), rgba(255, 255, 255, .1) 2px, transparent 5px), radial-gradient(white, rgba(255, 255, 255, .2) 2px, transparent 5px), radial-gradient(white, rgba(255, 255, 255, .15) 1px, transparent 5px), radial-gradient(white, rgba(255, 255, 255, .1) 2px, transparent 5px), radial-gradient(rgba(255, 255, 255, .4), rgba(255, 255, 255, .1) 2px, transparent 5px);
+    background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+    background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
 }
 
 html {
@@ -16,10 +25,19 @@ h1 {
     font-size: 3.2rem;
 }
 
-.img-responsive{
+.img-responsive {
     display: block;
     max-width: 100%;
+    width: 50vw;
     height: auto;
 }
 
+p {
+    font-weight: 300;
+}
 
+.explanation {
+    width: 50vw;
+    line-height: 1.4;
+    background-color: #000;
+}
